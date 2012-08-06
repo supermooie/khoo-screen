@@ -1,0 +1,7 @@
+hardstatus alwayslastline "%-Lw%{= CB}%{+c w}%50>%n%f* %t%{-}%+Lw%< %=%c %D %d/%m"
+vbell off
+bell_msg "Beep in window %n^G"
+
+attrcolor b ".I"
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on" 
